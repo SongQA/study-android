@@ -25,6 +25,6 @@
 
 1. Clone the repo
     ```bash
-    $ git clone git@github.com:banksalad/banksalad-android.git
-    $ cd banksalad-android
+    $ git clone git@github.com:SongQA/study-kotlin.git
+    $ cd study-kotlin
     ```
