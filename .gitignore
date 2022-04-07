@@ -1,0 +1,35 @@
+# Repository
+.classpath
+.project
+.settings
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode
+
+# IntelliJ IDEA (https://intellij-support.jetbrains.com/entries/23393067)
+.idea/.name
+.idea/caches/*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries
+.idea/gradle.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+*.iml
+
+# Gradle / Maven build
+.gradle
+build
+target
+bin
+lib
+out
+test-output
+vendor
