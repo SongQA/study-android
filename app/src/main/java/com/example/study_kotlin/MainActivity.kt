@@ -11,6 +11,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        button1.setOnClickListener(this)
+        button2.setOnClickListener(this)
+        button3.setOnClickListener(this)
+        button4.setOnClickListener(this)
+        button5.setOnClickListener(this)
         button5.setOnClickListener(this)
     }
 
