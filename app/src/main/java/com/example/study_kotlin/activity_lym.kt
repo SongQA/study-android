@@ -12,12 +12,6 @@ class activity_lym : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lym)
 
-        animationview.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-            finish()
-        } // 클릭 시에는 MainActivty 로 이동
-
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, mjMainActivity_lym::class.java)
             startActivity(intent)
