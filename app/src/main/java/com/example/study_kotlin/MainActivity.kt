@@ -34,6 +34,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.button6 -> {val nextIntent = Intent(this, activity_ahn2::class.java)
                 startActivity(nextIntent)}
         }
-
     }
 }
