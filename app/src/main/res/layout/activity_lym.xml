@@ -13,4 +13,13 @@
         android:text="Hello, World!"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="347dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:rotationX="-13"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="47dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
