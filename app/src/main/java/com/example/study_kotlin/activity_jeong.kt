@@ -9,3 +9,5 @@ class activity_jeong : AppCompatActivity() {
         setContentView(R.layout.activity_jeong)
     }
 }
+
+test
