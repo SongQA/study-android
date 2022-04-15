@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".activity_lym">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="289dp"
+        android:layout_height="114dp"
+        android:text="Hello, World!"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="347dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
