@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_lym">
+    tools:context=".activity_lym" >
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="289dp"
-        android:layout_height="114dp"
-        android:text="Hello, World!"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="347dp" />
+        android:id="@+id/button7"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:insetTop="7dp"
+        android:text="코틀린은어려워"
+        android:textAlignment="viewStart" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:rotationX="-13"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="47dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
