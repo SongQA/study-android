@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_jeong">
+
+    //MainActivity 화면 상단 애니메이션
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/money" />
+
+    //MainActivity 화면 중단 로또 번호 (number 1 ~ 6 까지 ID 부여)
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:rotationX="0"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="4"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="4dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    //화면 하단 애니메이션 (ID = lotteryButton 으로 부여)
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotteryButton"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/lottery_whirl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
