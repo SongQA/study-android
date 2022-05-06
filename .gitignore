@@ -33,3 +33,4 @@ lib
 out
 test-output
 vendor
+local.properties
