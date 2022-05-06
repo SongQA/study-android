@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button4.setOnClickListener(this)
         button5.setOnClickListener(this)
         button5.setOnClickListener(this)
+        button6.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
