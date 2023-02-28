@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Studykotlin">
-        <activity android:name=".Activity_add_juhee"/>
+        <activity android:name=".Activity_add"/>
         <activity
             android:name=".mjMainActivity_lym"
             android:exported="false" />

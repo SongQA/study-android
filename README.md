@@ -28,3 +28,13 @@
     $ git clone git@github.com:SongQA/study-kotlin.git
     $ cd study-kotlin
     ```
+   
+1. Clean
+   ```bash
+    $ ./gradlew clean
+    ```
+
+1. Build
+   ```bash
+    $ ./gradlew :app:assembleRelease
+    ```
